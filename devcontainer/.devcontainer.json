@@ -1,0 +1,10 @@
+{
+    "name": "Python & Triton Server",
+    "dockerComposeFile": "./docker-compose.yml", 
+    "service": "triton-voyager",
+    "workspaceFolder": "/voyager",
+    "extensions": ["ms-python.python"],
+    "settings": { 
+      "terminal.integrated.shell.linux": "/bin/bash"
+    }
+  }
